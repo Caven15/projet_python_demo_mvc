@@ -1,0 +1,22 @@
+# Pour reproduction du projets
+
+# Commande pour tout installer  =>  pip install -r requirements.txt
+
+Flask==3.0.2
+
+#formulaires
+Flask-wtf==1.2.1
+email_validator==2.1.1
+
+#ORM pour la db
+sqlalchemy==2.0.28
+flask_sqlalchemy==3.1.1
+psycopg2==2.9.9 # pour se connecter avec postgre
+
+
+# flask en restful
+flask-restful==0.3.10
+# sérialiser, désérialiser et valider des données 
+marshmallow==3.21.1
+# gestion token jwt
+Flask-JWT-Extended==4.6.0
